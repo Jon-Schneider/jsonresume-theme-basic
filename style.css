@@ -2,7 +2,7 @@ body {
   background: #EEEEEE;
   font: 12px "Times New Roman", Times, sans-serif;
   line-height: 1.4;
-  margin: 40px 0;
+  margin: 0;
 }
 em {
   color: #999;
@@ -22,7 +22,6 @@ a {
 
 #resume {
   margin: 0 auto;
-  max-width: 600px;
   padding: 80px 100px;
   background: #fff;
   border: 1px solid #ccc;
@@ -80,7 +79,7 @@ a {
 }
 
 .sectionLine {
-  border-style: dashed;
+  border-style: none;
   border-width: 1px;
   border-color: #CFCFCF;
   margin-top: 10px;
