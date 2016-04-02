@@ -92,6 +92,14 @@ a {
   margin-right: 5px;
 }
 
+#nameBlock {
+  text-align: center;
+}
+
+#basicsBlock {
+  text-align: center;
+}
+
 .summary {
   margin-top: 6px;
 }
@@ -102,14 +110,6 @@ a {
 
 .jobBlock {
   page-break-inside: avoid;
-}
-
-.nameBlock {
-  text-align: center;
-}
-
-.basicsBlock {
-  text-align: center;
 }
 
 /* Media Queries */
