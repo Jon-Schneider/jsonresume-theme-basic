@@ -1,6 +1,6 @@
 body {
   background: #EEEEEE;
-  font: 12px "Times New Roman", Times, sans-serif;
+  font: 13px "Times New Roman", Times, sans-serif;
   line-height: 1.4;
   margin: 0;
 }
@@ -40,7 +40,7 @@ a {
 }
 
 .smallFont {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .sectionBlock {
