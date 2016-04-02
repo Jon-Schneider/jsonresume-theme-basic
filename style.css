@@ -51,6 +51,7 @@ a {
 
 .sectionName {
   width: 18%;
+  min-width: 100px;
   vertical-align: top;
   display: inline-block;
   font-weight: bold;
