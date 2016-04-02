@@ -104,6 +104,14 @@ a {
   page-break-inside: avoid;
 }
 
+.nameBlock {
+  text-align: center;
+}
+
+.basicsBlock {
+  text-align: center;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 40em) {
   body {
