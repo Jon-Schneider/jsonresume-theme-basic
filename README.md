@@ -2,7 +2,7 @@
 
 A compact theme for JSON Resume, designed for printing. 
 
-Tries to fit as much information as possible onto a single page without making sections look cluttered.
+It's based on the Microsoft Word resume template I've been using since college.
 
 ## Example
 
