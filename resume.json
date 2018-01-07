@@ -1,114 +1,88 @@
 {
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
-    "picture": "",
-    "email": "richard.hendricks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "name": "Jonathan Schneider",
+    "label": "iOS Developer",
+    "email": "jon@jonschneider.me",
+    "phone": "c. (937) 903-1625",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US"
+      "city": "Cincinnati, OH"
     },
+    "summary": "Experienced iOS Developer with a background in User-facing Application and Developer-facing SDK development.",
     "profiles": [
       {
-        "url": "http://twitter.com/neutralthoughts"
+        "network": "GitHub",
+        "username": "Jon-Schneider",
+        "url": "https://github.com/Jon-Schneider"
       },
       {
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "joncschneider",
+        "url": "https://www.linkedin.com/in/joncschneider"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "Global movement of free coding clubs for young people.",
+      "company": "Lisnr",
+      "position": "iOS Engineer",
+      "startDate": "February 2015",
+      "endDate": "Present",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Extensively rebuilt and then maintained Lisnr iOS SDK as the sole iOS Developer at Lisnr. Responsible for implementing SDK feature changes, bug fixes, testing, and deployment.",
+        "Implemented iOS Applications and custom Application components for several high-profile clients including the Budweiser Made in America Music Festival and three major-league Professional Sports Teams.",
+        "App Honors: The 2015 Budweiser Made in America Music Festival Applications were a finalist for the 2016 SXSW Music & Audio Innovation Award.",
+        "Developed iOS portion of an internal mobile SDK used to quickly build and theme custom native applications for music festivals. iOS applications based on this SDK saw over half a million sessions across all iOS client applications in 2015.",
+        "Designed and implemented an extensive Functional Test Suite for the Lisnr iOS SDK using Specta, Expecta, OCHamcrest, OCMockito, and Nocilla.",
+        "Assumed additional Android development responsibilities during Q1 2016. Worked with a collegue to rewrite the Lisnr Android SDK from scratch. The final product had a codebase just half the length of the prior version without any feature loss.",
+        "Developed and released (open source) the first Swift in-app notification library for iOS, LNRSimpleNotifications.",
+        "Primarily worked in a sprint-based Agile development process."
+      ]
+    },
+    {
+      "company": "Z-Prototype",
+      "position": "Founder, CEO, iOS Developer",
+      "startDate": "August 2012",
+      "endDate": "December 2014",
+      "highlights": [
+        "Developed over two dozen iPhone and iPad Mobile applications.",
+        "App Honors: Two applications featured as “Best New Apps” on the Apple App Store. One application ranked in the top 10 Paid Productivity apps. One application that was ranked in the top 10 Paid Social Networking apps. One application that was featured by Entrepreneur.com.",
+        "Secured over a dozen clients ranging in size from small agencies to the entire North American division of a $500 million corporation.",
+        "Managed a team of up to 4 part-time developers."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "institution": "University of Dayton",
+      "area": "Logistics and Supply Chain Management and Entrepreneurship",
+      "studyType": "Bachelor of Science",
+      "startDate": "August 2008",
+      "endDate": "May 2012",
+      "gpa": "3.15"
+    },
+    {
+      "institution": "Sinclair Community College",
+      "area": "Computer Information Systems, Web Development",
+      "studyType": "Associate Degree",
+      "startDate": "January 2012",
+      "endDate": "August 2012",
+      "gpa": "3.94"
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "title": "Eagle Scout",
+      "date": "January 2008"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Languages",
       "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
-      ]
-    },
-    {
-      "name": "Compression",
-      "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
+          { "text": "Objective-C", "comment": "4 years" },
+          { "text": "Swift", "comment": "2" },
+          { "text": "Ruby", "comment": "1" },
+          { "text": "Java", "comment": "1" }
       ]
     }
   ]
