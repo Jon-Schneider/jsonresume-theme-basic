@@ -9,13 +9,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "css": "2.2.x",
     "handlebars": "^2.0.0-alpha.4",
-    "css": "2.2.x"
+    "jsonresume-theme-even": "^0.23.0",
+    "resumed": "^4.1.0"
   },
   "bugs": {
     "url": "https://github.com/Jon-Schneider/jsonresume-theme-basic/issues"
   },
   "homepage": "https://github.com/Jon-Schneider/jsonresume-theme-basic",
-  "main": "index.js",
-  "devDependencies": {}
+  "main": "index.js"
 }
