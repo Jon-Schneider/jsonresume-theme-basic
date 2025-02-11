@@ -10,11 +10,11 @@ http://themes.jsonresume.org/theme/onepage
 
 ## Running
 
+Clone this repo and cd into it, then run:
+
 ```
 sudo npm install -g resume-cli
-git clone https://github.com/ainsleyc/jsonresume-theme-onepage.git
-cd jsonresume-theme-onepage
-resume serve
+resume serve --theme .
 ```
 You can print directly from the served html.
 
