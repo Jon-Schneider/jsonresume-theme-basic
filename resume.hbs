@@ -260,14 +260,14 @@
         <span class='title'>
           {{#if institution}}{{institution}}{{/if}}
         </span>
+        <span>
+          {{#if studyType}} – {{studyType}} {{/if}}{{#if area}} - {{area}}, {{/if}}{{#if gpa}}GPA: {{gpa}}{{/if}}
+        </span>
         {{#if startDate}}
         <span class='date'>
           {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
         </span>
         {{/if}}
-        <div class=''>
-          {{#if studyType}}{{studyType}} {{/if}}{{#if area}} - {{area}}, {{/if}}{{#if gpa}}GPA: {{gpa}}{{/if}}
-        </div>
         {{#if courses.length}}
         <div id='coursesBlock'>
           {{#each courses}}
