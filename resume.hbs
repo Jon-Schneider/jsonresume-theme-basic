@@ -145,6 +145,47 @@
   <div class='sectionLine'></div>
 	{{/if}}
 
+  {{#if resume.projects.length}}
+	<div id='projects'>
+    <div class='sectionName'>
+      <span>PROJECTS</span>
+    </div>
+    <div class='sectionContent'>
+      {{#each resume.projects}}
+      <div class='blockHeader'>
+        <span class='title'>
+          {{#if name}}{{name}}{{/if}}
+        </span>
+        {{#if startDate}}
+	        <span class='date'>
+	          {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+	        </span>
+	      {{/if}}
+      </div>
+      {{#if url}}
+        <div class='url'>
+          <a href='{{url}}'>{{url}}</a>
+        </div>
+      {{/if}}
+      {{#if description}}
+        <div class='description'>
+          {{description}}
+        </div>
+      {{/if}}
+      {{#if highlights.length}}
+      <ul class='highlights'>
+        {{#each highlights}}
+        <li>{{.}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+      {{#unless @last}}<div class='separator'></div>{{/unless}}
+      {{/each}}
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+	{{/if}}
+
 	{{#if resume.volunteer.length}}
 	<div id='volunteer' class="sectionBlock">
     <div class='sectionName'>

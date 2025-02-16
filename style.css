@@ -110,7 +110,7 @@ a {
   text-align: center;
 }
 
-.summary {
+.summary, .description {
   margin-top: 6px;
 }
 
