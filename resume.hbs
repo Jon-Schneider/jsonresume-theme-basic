@@ -39,10 +39,9 @@
         {{#if city}}{{city}}{{/if}}{{#if region}}, {{region}}{{/if}}{{#if countryCode}}, {{countryCode}}{{/if}}
       </span>
       {{/location}}
-    </div>
-    {{#if profiles.length}}
-      <div id='profilesBlock'>
-        {{#each profiles}}
+      {{#if profiles.length}}
+      <span class='divider'>|</span>
+      {{#each profiles}}
           {{#if url}}
             <span class='url'>
               <a href='{{url}}'>{{url}}</a>
@@ -50,8 +49,8 @@
             {{#unless @last}}<span class='divider'>|</span>{{/unless}}
           {{/if}}
       {{/each}}
-      </div>
-    {{/if}}
+      {{/if}}
+    </div>
   </div>
   <div class='headerSeperator'></div>
 	{{/resume.basics}}
