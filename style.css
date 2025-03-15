@@ -155,7 +155,7 @@ a {
 @media print {
   #resume {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 650px;
     padding: 0px 0px;
     border: 0px;
     background: #fff;
