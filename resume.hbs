@@ -52,14 +52,14 @@
       {{/if}}
     </div>
   </div>
-  <div class='headerSeperator'></div>
 	{{/resume.basics}}
 
 	{{#if resume.work.length}}
   <div id='workBlock' class="sectionBlock">
     <div class='sectionName'>
-      <span>EXPERIENCE</span>
+      <span>Experience</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.work}}
 			<div class="jobBlock">
@@ -99,8 +99,9 @@
 	{{#if resume.publications.length}}
 	<div id='publications'>
     <div class='sectionName'>
-      <span>PUBLICATIONS</span>
+      <span>Publications</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.publications}}
       <div class='blockHeader'>
@@ -135,8 +136,9 @@
   {{#if resume.projects.length}}
 	<div id='projects'>
     <div class='sectionName'>
-      <span>PROJECTS</span>
+      <span>Projects</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.projects}}
       <div class='blockHeader'>
@@ -176,8 +178,9 @@
 	{{#if resume.volunteer.length}}
 	<div id='volunteer' class="sectionBlock">
     <div class='sectionName'>
-      <span>OPEN SOURCE</span>
+      <span>Open Source</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.volunteer}}
       <div class='blockHeader'>
@@ -208,8 +211,9 @@
 	{{#if resume.awards.length}}
 	<div id='awards' class="sectionBlock">
     <div class='sectionName'>
-      <span>AWARDS</span>
+      <span>Awards</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.awards}}
       <div class='blockHeader'>
@@ -239,8 +243,9 @@
 	{{#if resume.education.length}}
 	<div id='education' class="sectionBlock">
     <div class='sectionName'>
-      <span>EDUCATION</span>
+      <span>Education</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.education}}
       <div class='educationBlock'>
@@ -277,8 +282,9 @@
 	{{#if resume.skills.length}}
 	<div id='skills' class="sectionBlock">
     <div class='sectionName'>
-      <span>SKILLS</span>
+      <span>Skills</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.skills}}
       <div class='skillBlock'>
@@ -303,8 +309,9 @@
 	{{#if resume.languages.length}}
 	<div id='languages' class="sectionBlock">
     <div class='sectionName'>
-      <span>LANGUAGES</span>
+      <span>Languages</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.languages}}
       <span class='language'>{{language}}</span>
@@ -321,8 +328,9 @@
 	{{#if resume.interests.length}}
 	<div id='interests' class="sectionBlock">
     <div class='sectionName'>
-      <span>INTERESTS</span>
+      <span>Interests</span>
     </div>
+    <div class='sectionSeperator'></div>
     <div class='sectionContent'>
       {{#each resume.interests}}
       <span class='name'>{{name}}</span><!--

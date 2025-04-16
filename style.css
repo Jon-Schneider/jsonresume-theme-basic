@@ -41,23 +41,18 @@ a {
   font-size: 13px;
 }
 
-.sectionBlock {
-  display: flex;
+.sectionName {
   width: 100%;
 }
 
-.sectionName {
-  width: 18%;
-  min-width: 100px;
-  vertical-align: top;
-  display: inline-block;
+.sectionName span {
+  font-size: 16px;
   font-weight: bold;
 }
 
 .sectionContent {
-  width: 80%;
+  width: 100%;
   vertical-align: top;
-  display: inline-block;
 }
 
 .sectionContent ul {
@@ -101,6 +96,13 @@ a {
   margin-bottom: 15px;
 }
 
+.sectionSeperator {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  margin-bottom: 6px;
+}
+
 #nameBlock {
   text-align: center;
   font-weight: bold;
@@ -109,6 +111,7 @@ a {
 
 #basicsBlock {
   text-align: center;
+  margin-bottom: 4px;
 }
 
 .summary, .description {
