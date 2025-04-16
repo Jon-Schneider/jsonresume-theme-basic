@@ -41,15 +41,6 @@ a {
   font-size: 13px;
 }
 
-.sectionName {
-  width: 100%;
-}
-
-.sectionName span {
-  font-size: 16px;
-  font-weight: bold;
-}
-
 .sectionContent {
   width: 100%;
   vertical-align: top;
@@ -96,11 +87,29 @@ a {
   margin-bottom: 15px;
 }
 
-.sectionSeperator {
-  border-style: solid;
-  border-width: 1px;
-  border-color: lightgray;
+.sectionHeader {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
   margin-bottom: 6px;
+}
+
+.sectionName {
+  white-space: nowrap;
+  margin-right: 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.2;
+  position: relative;
+}
+
+.sectionSeparator {
+  flex-grow: 1;
+  border-bottom: 1px solid lightgray;
+  height: 0;
+
+  position: relative;
+  top: 1em;
 }
 
 #nameBlock {
@@ -143,9 +152,6 @@ a {
   }
   .sectionContent .date {
     padding-right: 2em;
-  }
-  .sectionName {
-    width: auto;
   }
   .largeFont {
     font-size: 20px;
